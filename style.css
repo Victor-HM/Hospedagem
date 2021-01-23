@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:#f0f2f5;
+}
+
+header {
+    background: #3498db;
+    height: 10rem;
+    text-align: center;
+    padding: 3rem 0 0 0;
+}
+
+.container {
+    width: min(90vw, 250px);
+    margin:auto;
+}
+
+/*cards====================*/
+
+#data {
+    margin-top: 2rem;
+}
+
+.school {
+    background: #f0f2f5;
+    text-align: center;
+    margin-bottom: 2rem;
+
+    transition-property: background;
+    transition-duration: 0.5s;
+}
+
+.school:hover {
+    background: white;
+}
+
+#data .school:first-child {
+    border-radius: 0.3rem 0.3rem 0 0;
+}
+
+#data .school:last-child {
+    border-radius: 0 0 0.3rem 0.3rem;
+}
+
+img {
+    width: 150px;
+
+    transition-duration: 0.5s;
+}
+
+img:hover {
+    width: 200px;
+}
+
+#link {
+    margin-top: 1rem;
+    background: white;
+    text-align: center;
+    width: 270px;
+}
+
+a {
+    font-size: 20px;
+    
+    transition-duration: 100ms;
+}
+
+a:hover{
+    font-size: 25px;
+}
